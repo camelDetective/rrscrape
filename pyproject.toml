@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "rrscrape"
+version = "0.1.0"
+description = "A scraping project for RoyalRoad stories data, extracting metadata such as ratings, blurbs, warnings, and more."
+license = "Apache-2.0"
+authors = ["camelDetective <camelDetective@proton.me" ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.36.0"
+openai = "^1.35.10"
+pandas = "^2.2.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+lxml = "^5.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+selenium = "^4.22.0"
+webdriver-manager = "^4.0.1"
+pillow = "^10.4.0"
+numpy = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
