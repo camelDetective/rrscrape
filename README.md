@@ -48,9 +48,8 @@ I also wanted to practice using chat APIs and the streamlit library. I built thi
 3. Run the web UI by entering `streamlit run app.py` in the terminal while it's open in the project directory.
 
 ### People who don't have experience in Python programming:
-1. Download the repository as a zip file by clicking the green "Code" button and selecting "Download ZIP".
-2. Unzip the project folder on your computer.
-3. Go to [this Google Colab notebook](https://colab.research.google.com/drive/1rGTMKkyw6WnKX7vH18GosOu6YRc3BxCZ?usp=sharing) and follow the instructions there. A copy of the notebook is also included in the project folder as `colab_streamlit.ipynb`.
+1. Go to [this Google Colab notebook](https://colab.research.google.com/drive/1rGTMKkyw6WnKX7vH18GosOu6YRc3BxCZ?usp=sharing) and follow the instructions there. A copy of the notebook is also included in the project folder as `colab_streamlit.ipynb`.
+2. Profit.
 
 ## Usage Examples:
 ![Usage Example Video](assets/demo.gif)
